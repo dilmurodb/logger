@@ -22,6 +22,3 @@ const logEvents = async (message) => {
 
 
 module.exports = logEvents
-
-// console.log(format(new Date(), 'yyyyMMdd\tHH:mm:ss'))
-// console.log(uuid())
