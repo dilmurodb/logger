@@ -18,9 +18,9 @@ router.get('/prev-page(.html)?', (req, res) => {
     res.redirect(path.join(__dirname, '..', 'views', 'new-page.html'))
 })
 
-router.get('/*', (req, res) => {
-    res.sendFile(path.join(__dirname, '..', 'views', '404.html'))
-})
+// router.get('/*', (req, res) => {
+//     res.sendFile(path.join(__dirname, '..', 'views', '404.html'))
+// })
 
 
 
